@@ -2,8 +2,7 @@ const express = require("express");
 const bodyParser=require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const mongoose = require("mongoose");
-
+const db=require("./models/index");
 const app = express();
 
 dotenv.config();
@@ -18,7 +17,11 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+require("./database/connection"); 
+app.get("/",async(req,res)=>{
 
+  res.send("Sql backend");
+})
 
 app.listen(process.env.PORT, () => {
     console.log("Server started at port " + process.env.PORT);
