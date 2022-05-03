@@ -11,6 +11,7 @@ module.exports = {
           model: "Auths",
           key: "email",
         },
+        primaryKey: true,
         unquie:true
         
       },

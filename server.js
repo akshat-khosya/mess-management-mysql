@@ -22,7 +22,13 @@ app.get("/",async(req,res)=>{
 
   res.send("Sql backend");
 })
+// // routes
+const auth = require("./routes/auth");
+const admin = require("./routes/admin");
 
+// //routes use
+app.use("/api/admin", admin);
+app.use("/api/auth", auth);
 app.listen(process.env.PORT, () => {
     console.log("Server started at port " + process.env.PORT);
   });

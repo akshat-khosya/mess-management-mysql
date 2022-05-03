@@ -29,6 +29,9 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: false,
         defaultValue: false,
       },
+      token:{
+        type:DataTypes.STRING
+      },
       role: {
         type: DataTypes.STRING,
         allowNull: false,

@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     email: {
       type: DataTypes.STRING,
       allowNull: false,
+      primaryKey: true,
       references: {
         
         model: "Auths",
