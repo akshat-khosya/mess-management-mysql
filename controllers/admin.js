@@ -86,7 +86,7 @@ exports.singleMessDetails = async (req, res) => {
   try {
     const result = await db.Auth.findOne({where:{ email: req.user }});
     const messResult = await db.Mess.findOne({where:{ email: result.email }});
-
+    console.log(messResult);
     return res.status(200).json({ errors: [{ details: messResult }] });
   } catch (err) {
     console.log(err);

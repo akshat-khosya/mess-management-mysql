@@ -9,7 +9,7 @@ exports.register = async (req, res) => {
     const checkUser = await db.Auth.findOne({
       where: { email: req.body.email },
     });
-    console.log(checkUser.dataValues.password);
+    console.log(checkUser);
     if (checkUser) {
       if (checkUser.emailVerification) {
         console.log(checkUser);
