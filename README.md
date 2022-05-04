@@ -1,7 +1,7 @@
 # IIIT Una Mess Management Project
 
 <p align="center">
-<img src="./public/favicon.png" alt="IIIT Una" />
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fc%2Fcf%2FIiit-una-logo.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIndian_Institute_of_Information_Technology%2C_Una&tbnid=G8xTFJdpKn_0zM&vet=12ahUKEwjIr9eyicX3AhXUzqACHc5NAIEQMygAegQIARBU..i&docid=8p5i-5Bb3pvfpM&w=316&h=316&q=iiitu%20logo&ved=2ahUKEwjIr9eyicX3AhXUzqACHc5NAIEQMygAegQIARBU" alt="IIIT Una" />
 </p>
 
 This is the repository for IIIT Una mess management.
