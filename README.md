@@ -34,7 +34,7 @@ npm i
 npm run react
 ```
 
--   For the backend (express and mongodb)
+-   For the backend (express and mysql)
 
 ```sh
 npm start
