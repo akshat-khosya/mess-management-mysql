@@ -1,7 +1,7 @@
 # IIIT Una Mess Management Project
 
 <p align="center">
-<img src="/blob/main/utils/iiitulogo.png?raw=true" alt="IIIT Una" />
+<img src="/utils/iiitulogo.png?raw=true" alt="IIIT Una" />
 </p>
 
 This is the repository for IIIT Una mess management.
