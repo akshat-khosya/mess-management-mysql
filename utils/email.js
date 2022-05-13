@@ -34,9 +34,11 @@ const sendEmail = (to, sub, htmlContent) => {
 
   transport.sendMail(mailOptions, function (err, result) {
     if (err) {
+      console.log("Mail error");
       console.error(err);
     } else {
       transport.close();
+      console.log("mail results");
       console.log(result);
     }
   });

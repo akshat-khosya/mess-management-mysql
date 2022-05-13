@@ -46,6 +46,6 @@ exports.isUser = async (req, res, next) => {
       res.status(403).json({ msg: "Unauthorized!" });
     }
   } else {
-    return res.status(400).json({ msg: "Invalid Admin" });
+    return res.status(400).json({ msg: "Invalid User" });
   }
 };
